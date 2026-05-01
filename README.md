@@ -1,16 +1,15 @@
 # Gesture-Based-Interaction-Accessibility
 
-##Overview
-
+## Overview
 This project explores touchless interaction using mid-air hand gestures, focusing on the trade-off between user-defined and system-defined gestures. A real-time prototype was developed using MediaPipe and TensorFlow Lite.
 
-##Features
+## Features
 Webcam-based hand tracking
 Pre-trained static gesture recognition
 Custom classifiers for Back and Zoom
 Lightweight, real-time system (CPU-friendly)
 
-##Structure
+## Structure
 Gesture_Prototype.ipynb  # Main system
 model/                   # Trained classifiers
 annotations/             # (Not included – see below)
@@ -27,7 +26,7 @@ Negatives: peace, dislike, like, palm, point
 
 Place them in /annotations/ (train/val/test splits).
 
-#SETUP
+## SETUP
 **Install dependencies:**
 pip install mediapipe tensorflow opencv-python numpy
 
@@ -37,14 +36,14 @@ Gesture Recognizer
 Run:
 Gesture_Prototype.ipynb
 
-##NOTES:
+## NOTES:
 annotations/ not included due to size
 Models for Back and Zoom are pre-trained
 Practice phase in notebook is for user familiarisation only
 CSV files for Back and Zoom will be automatically generated in the data/ folder when running the training scripts (not included due to size)
 
 
-##References: 
+## References: 
 https://github.com/kinivi/hand-gesture-recognition-mediapipe/blob/main/keypoint_classification_EN.ipynb
 https://www.tensorflow.org/api_docs/python/tf/keras/Model
 https://www.youtube.com/watch?v=a99p_fAr6e4&t=899s 
