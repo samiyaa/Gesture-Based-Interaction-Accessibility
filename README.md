@@ -45,10 +45,10 @@ CSV files for Back and Zoom will be automatically generated in the data/ folder 
 
 
 ## References: 
-https://github.com/kinivi/hand-gesture-recognition-mediapipe/blob/main/keypoint_classification_EN.ipynb
-https://www.tensorflow.org/api_docs/python/tf/keras/Model
-https://www.youtube.com/watch?v=a99p_fAr6e4&t=899s 
-https://milvus.io/ai-quick-reference/what-are-negative-sampling-and-its-role-in-embedding-training
-https://mediapipe.readthedocs.io/en/latest/solutions/hands.html
-hand_landmarker.task: https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker) 
-gesture_recognizer.task: https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer) 
+1. https://github.com/kinivi/hand-gesture-recognition-mediapipe/blob/main/keypoint_classification_EN.ipynb
+2. https://www.tensorflow.org/api_docs/python/tf/keras/Model
+3. https://www.youtube.com/watch?v=a99p_fAr6e4&t=899s
+4. https://milvus.io/ai-quick-reference/what-are-negative-sampling-and-its-role-in-embedding-training
+5. https://mediapipe.readthedocs.io/en/latest/solutions/hands.html
+6. hand_landmarker.task: https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker)
+7. gesture_recognizer.task: https://ai.google.dev/edge/mediapipe/solutions/vision/gesture_recognizer) 
