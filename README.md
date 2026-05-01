@@ -20,6 +20,7 @@ annotations folder is not added because it is very large, but the following gest
 2) zoom: thumb_index
 3) others (for negative sampling): peace, dislike, like, palm, point
 it has the test, train, and val landmarks for the hands obtained from the HaGRIDv2 dataset, and downloaded from their GitHub: https://github.com/hukenovs/hagrid
+note: i tried it to compress it but it is still too large
 
 all folders (except reference_images) need to be downloaded for the main code (Gesture_Prototype.ipynb) to run 
 
