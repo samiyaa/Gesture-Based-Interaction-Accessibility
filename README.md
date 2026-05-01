@@ -1,8 +1,7 @@
 # Gesture-Based-Interaction-Accessibility
 
-https://github.com/hukenovs/hagrid
-
 ##Overview
+
 This project explores touchless interaction using mid-air hand gestures, focusing on the trade-off between user-defined and system-defined gestures. A real-time prototype was developed using MediaPipe and TensorFlow Lite.
 
 ##Features
