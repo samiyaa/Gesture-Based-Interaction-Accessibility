@@ -15,7 +15,11 @@ training phase is just for the brief practice phase before the actual study.
 
 model folder has the models made for back and zoom gestures.
 
-annotations has the test, train, and val landmarks for the hands obtained from the HaGRIDv2 dataset, and downloaded from their GitHub: https://github.com/hukenovs/hagrid
+annotations folder is not added because it is very large, but the following gestures need to be downloaded for the ML models to run: 
+1) back: three_gun
+2) zoom: thumb_index
+3) others (for negative sampling): peace, dislike, like, palm, point
+it has the test, train, and val landmarks for the hands obtained from the HaGRIDv2 dataset, and downloaded from their GitHub: https://github.com/hukenovs/hagrid
 
 all folders (except reference_images) need to be downloaded for the main code (Gesture_Prototype.ipynb) to run 
 
