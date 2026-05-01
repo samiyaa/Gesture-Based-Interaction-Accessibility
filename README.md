@@ -10,21 +10,22 @@ Custom classifiers for Back and Zoom
 Lightweight, real-time system (CPU-friendly)
 
 ## Structure
+```
 Gesture_Prototype.ipynb  # Main system
 model/                   # Trained classifiers
 annotations/             # (Not included – see below)
 data/                    # (Not included – see below)
 reference_images/        # Gesture examples
-
+```
 ### dataset
 Uses HaGRIDv2: https://github.com/hukenovs/hagrid
 
 Download these gesture classes:
-Back: three_gun
-Zoom: thumb_index
-Negatives: peace, dislike, like, palm, point
+- Back: three_gun
+- Zoom: thumb_index
+- Negatives: peace, dislike, like, palm, point
 
-Place them in /annotations/ (train/val/test splits).
+Place them in `/annotations/` (train/val/test splits).
 
 ## SETUP
 **Install dependencies:**
