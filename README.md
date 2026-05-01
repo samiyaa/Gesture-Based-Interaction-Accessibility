@@ -38,10 +38,10 @@ Run:
 Gesture_Prototype.ipynb
 
 ## NOTES:
-annotations/ not included due to size
-Models for Back and Zoom are pre-trained
-Practice phase in notebook is for user familiarisation only
-CSV files for Back and Zoom will be automatically generated in the data/ folder when running the training scripts (not included due to size)
+- `annotations/` not included due to size (can be downloaded from https://github.com/hukenovs/hagrid for the classes mentioned above)
+- Models for Back and Zoom are pre-trained
+- Practice phase in notebook is for user familiarisation only
+- CSV files for Back and Zoom will be automatically generated in the data/ folder when running the training scripts (not included due to size)
 
 
 ## References: 
